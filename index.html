@@ -2,64 +2,46 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Jorge Cosme Rosa | Desenvolvedor</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f0f2f5;
-      padding: 40px;
-      max-width: 800px;
-      margin: auto;
-    }
-
-    .card {
-      background: #fff;
-      padding: 25px;
-      margin-bottom: 25px;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    }
-
-    h1 {
-      color: #222;
-    }
-
-    h2 {
-      color: #444;
-    }
-
-    a {
-      color: #0066cc;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    .foto {
-      width: 120px;
-      border-radius: 50%;
-      margin-bottom: 20px;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - Jorge Junior</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header>
+    <h1>Jorge Junior</h1>
+    <p>Desenvolvedor Web Iniciante</p>
+  </header>
 
-  <div class="card">
-    <img src="foto.png" alt="Foto em estilo cartoon do Jorge Júnior" class="foto">
-    <h1>👋 Olá! Eu sou Jorge Junior</h1>
-    <p>💻 Desenvolvedor iniciante em HTML, CSS e JavaScript.</p>
-    <p>📚 Sempre aprendendo e buscando novos desafios.</p>
-  </div>
+  <section class="sobre">
+    <h2>Sobre mim</h2>
+    <img src="foto.png" alt="Foto de Jorge Junior" class="foto-perfil">
+    <p>
+      Sou um desenvolvedor iniciante com foco em projetos simples e objetivos usando HTML, CSS e JavaScript.
+      Estou buscando oportunidades como freelancer para ganhar experiência e evoluir na área de tecnologia.
+    </p>
+  </section>
 
-  <div class="card">
-    <h2>🚀 Projetos</h2>
+  <section class="projetos">
+    <h2>Meus Projetos</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Projeto 1: Calculadora</h3>
+        <p>Uma calculadora básica feita com HTML, CSS e JavaScript.</p>
+        <a href="https://github.com/Cosmejr1986/calculadora" target="_blank">Ver no GitHub</a>
+      </div>
 
-    <h3>📄 Currículo Web</h3>
-    <p>Site estático simples feito com HTML e CSS para mostrar meu currículo de forma digital.</p>
-    <a href="https://github.com/Cosmejr1986">Ver no GitHub</a>
-  </div>
+      <div class="card">
+        <h3>Projeto 2: Página de Login</h3>
+        <p>Interface simples de login com validação.</p>
+        <a href="https://github.com/Cosmejr1986/login-simples" target="_blank">Ver no GitHub</a>
+      </div>
 
+      <!-- Adicione mais projetos aqui -->
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Jorge Junior. Todos os direitos reservados.</p>
+  </footer>
 </body>
 </html>
